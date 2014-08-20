@@ -1,4 +1,5 @@
-var sd = require("../src/index.js");
+var isSpam = require("../src/index.js");
 
-sd.isSpam("http://directproprietar.ro",function(err,data){ console.log(data)})
-
+isSpam("http://directproprietar.ro", function(err, data){ 
+  console.log(data);
+});
